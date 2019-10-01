@@ -1,0 +1,6 @@
+# expected-to-throw
+query TestQuery($date: String) {
+  items(filter: {date: $date}) {
+    date
+  }
+}
